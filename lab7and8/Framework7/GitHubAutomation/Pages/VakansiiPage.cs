@@ -12,6 +12,7 @@ namespace GitHubAutomation.Pages
     {
         IWebDriver driver;
 
+        [Obsolete]
         public VakansiiPage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);

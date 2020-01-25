@@ -12,6 +12,7 @@ namespace GitHubAutomation.Pages
     {
         IWebDriver driver;
 
+        [Obsolete]
         public ContactsPage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);

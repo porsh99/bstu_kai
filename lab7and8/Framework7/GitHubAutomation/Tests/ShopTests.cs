@@ -15,6 +15,7 @@ namespace Framework.Tests
     {
        
         [Test]
+        [Obsolete]
         public void CheckVakansii()
         {
             MakeScreenshotWhenFail(() =>
@@ -26,6 +27,7 @@ namespace Framework.Tests
         }
 
         [Test]
+        [Obsolete]
         public void CheckCredit()
         {
             MakeScreenshotWhenFail(() =>
@@ -37,6 +39,7 @@ namespace Framework.Tests
         }
 
         [Test]
+        [Obsolete]
         public void CheckAbout()
         {
             MakeScreenshotWhenFail(() =>
@@ -48,6 +51,7 @@ namespace Framework.Tests
         }
 
         [Test]
+        [Obsolete]
         public void CheckContacts()
         {
             MakeScreenshotWhenFail(() =>
@@ -59,6 +63,7 @@ namespace Framework.Tests
         }
 
         [Test]
+        [Obsolete]
         public void CheckService()
         {
             MakeScreenshotWhenFail(() =>
@@ -69,6 +74,7 @@ namespace Framework.Tests
             });
         }
         [Test]
+        [Obsolete]
         public void CheckDelivery()
         {
             MakeScreenshotWhenFail(() =>
@@ -80,6 +86,7 @@ namespace Framework.Tests
         }
 
         [Test]
+        [Obsolete]
         public void CheckBakset()
         {
             MakeScreenshotWhenFail(() =>
@@ -91,6 +98,7 @@ namespace Framework.Tests
         }
 
         [Test]
+        [Obsolete]
         public void CheckSearch()
         {
             MakeScreenshotWhenFail(() =>
@@ -102,6 +110,7 @@ namespace Framework.Tests
             });
         }
         [Test]
+        [Obsolete]
         public void CheckComputer()
         {
             MakeScreenshotWhenFail(() =>
@@ -112,6 +121,7 @@ namespace Framework.Tests
             });
         }
         [Test]
+        [Obsolete]
         public void CheckInstagram()
         {
             MakeScreenshotWhenFail(() =>

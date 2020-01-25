@@ -12,6 +12,7 @@ namespace GitHubAutomation.Pages
     {
         IWebDriver driver;
 
+        [Obsolete]
         public SearchPage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);

@@ -10,6 +10,7 @@ namespace GitHubAutomation.Pages
     {
         IWebDriver driver;
 
+        [Obsolete]
         public MainPage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);
@@ -63,48 +64,56 @@ namespace GitHubAutomation.Pages
         [FindsBy(How = How.XPath, Using = paymentButtonField)]
         public IWebElement PaymentButton { get; set; }
 
+        [Obsolete]
         public VakansiiPage ClickToVakansiiButton()
         {
             VakansiiButton.Click();
             return new VakansiiPage(driver);
         }
 
+        [Obsolete]
         public CreditPage ClickToCreditButton()
         {
             CreditButton.Click();
             return new CreditPage(driver);
         }
 
+        [Obsolete]
         public AboutPage ClickToAboutButton()
         {
             AboutButton.Click();
             return new AboutPage(driver);
         }
 
+        [Obsolete]
         public ServisPage ClickToServiceButton()
         {
             ServiceButton.Click();
             return new ServisPage(driver);
         }
 
+        [Obsolete]
         public ContactsPage ClickToContactsButton()
         {
             ContactsButton.Click();
             return new ContactsPage(driver);
         }
 
+        [Obsolete]
         public DeliveryPage ClickToDeliveryButton()
         {
             DeliveryButton.Click();
             return new DeliveryPage(driver);
         }
 
+        [Obsolete]
         public BasketPage ClickToBasketButton()
         {
             BasketButton.Click();
             return new BasketPage(driver);
         }
 
+        [Obsolete]
         public MainPage InputSearch(Search search)
         {
             SearchInput.Clear();
@@ -112,18 +121,21 @@ namespace GitHubAutomation.Pages
             return new MainPage(driver);
         }
 
+        [Obsolete]
         public SearchPage ClickSearch()
         {
             SearchButton.Click();
             return new SearchPage(driver);
         }
 
+        [Obsolete]
         public ComputerPage ClickToComputerButton()
         {
             ComputerButton.Click();
             return new ComputerPage(driver);
         }
 
+        [Obsolete]
         public PaymentPage ClickToPaymentButton()
         {
             PaymentButton.Click();

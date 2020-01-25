@@ -11,7 +11,8 @@ namespace GitHubAutomation.Pages
     class ComputerPage
     {
             IWebDriver driver;
-
+            
+            [Obsolete]
             public ComputerPage(IWebDriver driver)
             {
                 PageFactory.InitElements(driver, this);
