@@ -19,7 +19,7 @@ namespace GitHubAutomation.Pages
                 this.driver = driver;
             }
 
-            private const string pageNameField = "//*[@id=\"style-3\"]/div[6]/h1";
+            private const string pageNameField = "//*[@id=\"menu\"]/nav/div/div[3]/a/p";
 
             [FindsBy(How = How.XPath, Using = pageNameField)]
             public IWebElement pageName { get; set; }
